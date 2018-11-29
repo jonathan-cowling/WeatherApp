@@ -1,0 +1,23 @@
+<resources>
+  <string name="app_name">WeatherApp</string>
+
+  <string name="please_wait">Please Wait</string>
+  <string name="getting_weather_template">Getting weather in %s</string>
+  <string name="help">Help</string>
+  <string name="refresh">Refresh</string>
+  <string name="help_text">The main screen will display the weather in your chosen location.
+        \n\n\nUse the toolbar to switch between celsius and fahrenheit.
+        \n\n\nPress refresh on the toolbar to get the most up to date information.</string>
+  <string name="retry_template">Couldn\'t get weather in %s Please check your connection and try again</string>
+  <string name="try_again">Try Again</string>
+  <string name="temperature">Temperature</string>
+  <string name="temperature_template">%.1f</string>
+  <string name="temperature_unit_template">˚%s</string>
+  <string name="weather_description_template">%s</string>
+  <string name="toolbar_menu_switch_unit_template">Switch to ˚%s</string>
+  <string name="weather_up_to_date">Weather is already up to date</string>
+  <string name="city_text_template">%s</string>
+  <string name="forecast_list_item_temperature_template">%.0f</string>
+  <string name="forecast_list_item_temperature_unit_template">˚%s</string>
+  <string name="forecast_list_item_day_text_template">%d%s</string>
+</resources>

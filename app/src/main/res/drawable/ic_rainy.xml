@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+  <path
+      android:pathData="M40,23.04C38.8172,21.9557 37.2407,21.294 35.5096,21.294C33.4215,21.294 31.5583,22.2568 30.3397,23.7627C29.1212,22.2568 27.258,21.294 25.1699,21.294C23.0818,21.294 21.2186,22.2568 20,23.7627C18.7814,22.2568 16.9182,21.294 14.8301,21.294C12.742,21.294 10.8788,22.2568 9.6603,23.7627C8.4417,22.2568 6.5785,21.294 4.4904,21.294C2.7593,21.294 1.1828,21.9557 0,23.04C2.6784,14.2942 10.2527,8 20,8C29.7473,8 37.3216,14.2942 40,23.04Z"
+      android:fillColor="@color/colorWeatherIcons"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M10.366,-0.088L10.366,-0.088A1,1 0,0 1,11.366 0.912L11.366,4.088A1,1 0,0 1,10.366 5.088L10.366,5.088A1,1 0,0 1,9.366 4.088L9.366,0.912A1,1 0,0 1,10.366 -0.088z"
+      android:fillColor="@color/colorWeatherIcons"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M20.366,-0.088L20.366,-0.088A1,1 0,0 1,21.366 0.912L21.366,4.088A1,1 0,0 1,20.366 5.088L20.366,5.088A1,1 0,0 1,19.366 4.088L19.366,0.912A1,1 0,0 1,20.366 -0.088z"
+      android:fillColor="@color/colorWeatherIcons"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M30.366,-0.088L30.366,-0.088A1,1 0,0 1,31.366 0.912L31.366,4.088A1,1 0,0 1,30.366 5.088L30.366,5.088A1,1 0,0 1,29.366 4.088L29.366,0.912A1,1 0,0 1,30.366 -0.088z"
+      android:fillColor="@color/colorWeatherIcons"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M13,35C13,36.6569 14.3431,38 16,38C17.6569,38 19,36.6569 19,35L19,14L21,14L21,35C21,37.7614 18.7614,40 16,40C13.2386,40 11,37.7614 11,35C11,34.4477 11.4477,34 12,34C12.5523,34 13,34.4477 13,35Z"
+      android:fillColor="@color/colorWeatherIcons"
+      android:fillType="evenOdd"/>
+</vector>

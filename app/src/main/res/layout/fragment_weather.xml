@@ -1,0 +1,116 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".ui.fragment.WeatherFragment">
+
+  <android.support.constraint.ConstraintLayout
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+      android:id="@+id/city_text"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:text="@string/city_text_template"
+      android:textAlignment="center"
+      android:textSize="@dimen/size_text_l"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:text="Manchester" />
+
+    <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_margin="@dimen/mar_m"
+      android:layout_marginBottom="8dp"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toTopOf="@+id/weather_description_text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/city_text">
+
+      <TextView
+        android:id="@+id/temperature_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="0"
+        android:text="@string/temperature_template"
+        android:textSize="@dimen/size_text_xl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/weather_image"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365"
+        tools:text="21.0" />
+
+      <TextView
+        android:id="@+id/temperature_unit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0"
+        android:text="@string/temperature_unit_template"
+        android:textSize="@dimen/size_text_xl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="˚C" />
+
+      <ImageView
+        android:id="@+id/weather_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/ic_rainbow" />
+
+    </LinearLayout>
+
+    <TextView
+      android:id="@+id/weather_description_text"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/mar_m"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="@dimen/mar_m"
+      android:layout_marginStart="@dimen/mar_m"
+      android:gravity="center_vertical"
+      android:padding="@dimen/pad_s"
+      android:text="@string/weather_description_template"
+      android:textAlignment="center"
+      android:textSize="@dimen/size_text_m"
+      app:layout_constraintBottom_toTopOf="@+id/forecast_list_container"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:text="Its sunny? maybe." />
+
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/forecast_list_container"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
